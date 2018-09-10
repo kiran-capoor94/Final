@@ -1170,33 +1170,58 @@ p {
 }
 
 /*Hide/Show Classes*/
-@media only screen and (min-width:480px) {
-    .hide-mobie {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .show-mobile {
+        display: block;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .hide-large-mobile {
         display: none;
     }
 
-    .show-mobie {
+    .show-large-mobile {
         display: block;
     }
 }
 
-@media only screen and (min-width:600px) {
-    .hide-tablet {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .hide-tab {
         display: none;
     }
 
-    .show-tablet {
+    .show-tab {
         display: block;
     }
 }
 
-@media only screen and (min-width:768px) {
-    .hide-desktop {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .hide-large-tab {
         display: none;
     }
 
+    .show-large-tab {
+        display: block;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
     .show-desktop {
         display: block;
+    }
+
+    .hide-desktop {
+        display: none;
     }
 }
 
