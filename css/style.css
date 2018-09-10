@@ -1,0 +1,155 @@
+html {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+section {
+    height: 100vh;
+}
+
+.purple {
+    color: #0e012e;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #888;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #3A1392;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0e012e;
+}
+
+.hero {
+    background-image: url('../images/bg-waves-logo-bar@2x.png');
+    background-size: cover;
+}
+
+@media only screen and (max-width:768px) {
+    .hero {
+        background-image: url('../images/bg-waves-head.png');
+        background-size: cover;
+    }
+}
+
+.kc-header {
+    display: flex;
+    top: 10%;
+    position: relative;
+}
+
+.logo-container {
+    width: 85px;
+}
+
+.hero-right {
+    position: absolute;
+    right: 5%;
+    top: 30%;
+}
+
+.hero-left {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
+
+#about-me {
+    background-image: url('../images/bg-purple-codes.png');
+    background-size: cover;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.section-para {
+    line-height: 2rem;
+}
+
+.waves-top {
+    background-image: url('../images/bg-waves-top.png');
+}
+
+.waves-purple {
+    background-image: url('../images/bg-waves-dark.png');
+}
+
+.waves-top .section-head-text {
+    color: #0e012e;
+}
+
+.waves-purple .section-head-text {
+    color: #fff;
+}
+
+.kc-header-mobile {
+    padding-top: 7px;
+    width: 76px;
+    border: 2px solid #3A1392;
+    position: absolute;
+    top: 9%;
+    right: 5%;
+    padding: 5px;
+    text-align: center;
+    display: none;
+}
+
+.up-arrow {
+    position: fixed;
+    bottom: 11%;
+    font-size: 30px;
+    right: 5%;
+    /* border: 2px solid #0e012e; */
+    padding: 2px;
+}
+
+.up-arrow i {
+    color: #0e012e;
+}
+
+.up-arrow i:hover {
+    color: #3A1392;
+}
+
+.down-arrow i {
+    color: #0e012e;
+}
+
+.down-arrow i:hover {
+    color: #3A1392;
+}
+
+.down-arrow {
+    position: fixed;
+    bottom: 7%;
+    right: 5%;
+    font-size: 30px;
+    /* border: 2px solid #0e012e; */
+    padding: 2px;
+}
+
+.bg-purple {
+    background-color: #0e012e;
+    color: #fff;
+}
+
+.bg-gray {
+    background-color: #e3e3e3;
+    color: #0e012e;
+}
+
+/* .portfolio-section{ */
+/* height: auto; */
+/* max-height: auto; */
+/* } */
