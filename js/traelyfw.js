@@ -24,20 +24,13 @@ jq(document).ready(function () {
   });
 });
 
-// function getScrollTop(){
-//   var doc = document.documentElement;
-//   return (window.pageYOffset||doc.scrollTop)-(doc.clientTop||0);
-// }
-// function getScrollDirection(currentScroll) {
-//   var direction = currentScroll >lastScroll ? 'down' : 'up';
-//   lastScroll = currentScroll;
-//   return direction;
-// }
-// function scrollHandler(){
-//   var currentSection;
-//   var currentScroll = getScrollTop();
-//   var scrollDirection = getScrollDirection(currentScroll);
-// }
-// var attrName='[data-anchor]';
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
-// var anchorLink = currentSection.getAttribute('data-anchor');
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementsByClassName("scrollTop")[0].style.display = "flex";
+  } else {
+    document.getElementsByClassName("scrollTop")[0].style.display = "none";
+  }
+}

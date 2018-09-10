@@ -16,48 +16,50 @@
 
 <body>
     <!-- Hero Section -->
-    <div class="head hide-mobile show-desktop" style="position:relative; top:10%;">
-        <header class="center kc-header right pr-5">
-            <ul class="small center">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about-me">About</a></li>
-                <li><a href="#services-section">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Clients</a></li>
-            </ul>
-            <div class="logo-container">
-                <a href="kirancapoor.com"><img class="logo-img" src="images/logo-KC@2x.png" alt=""></a>
-            </div>
-        </header>
-    </div>
-
-    <header class="kc-header-mobile right center show-mobile hide-desktop" id="dropdownMenu">
-        <div class="icon-header">
-            <a href="#"><i class="fas fa-bars"></i></a>
+    <section class="hero flow-text" id="backToUp">
+        <div class="head hide-mobile show-desktop show-tab" style="position:relative; top:10%;">
+            <header class="center kc-header right pr-5">
+                <ul class="small center">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#services-section">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#clients-section">Testimonials</a></li>
+                </ul>
+                <div class="logo-container">
+                    <a href="kirancapoor.com"><img class="logo-img" src="http://kirancapoor.com/wp-content/uploads/2018/09/logo-KC@2x.png"
+                            alt=""></a>
+                </div>
+            </header>
         </div>
-        <ul>
 
-        </ul>
-    </header>
-    <div class="vertical-text hero-right font-2 bold">
-        <h3 style="font-size:30px;">DESIGNER</h3>
-    </div>
-    <div class="vertical-text hero-left font-2 bold">
-        <h3 style="font-size:30px;">DEVELOPER</h3>
-    </div>
+        <header class="kc-header-mobile right center show-mobile hide-desktop hide-tab" id="dropdownMenu">
+            <div class="icon-header">
+                <a href="#"><i class="fas fa-bars"></i></a>
+            </div>
+            <ul>
+
+            </ul>
+        </header>
+        <div class="vertical-text hero-right font-2 bold">
+            <h3 style="font-size:30px;">DESIGNER</h3>
+        </div>
+        <div class="vertical-text hero-left font-2 bold">
+            <h3 style="font-size:30px;">DEVELOPER</h3>
+        </div>
     </section>
     <!--About Me Section-->
     <section id="about-me" class="flow-text center valign-center text-white">
         <div class="container">
             <div class="row">
                 <div class="section-head-text">
-                    <div class="subtitle">
+                    <div class="subtitle flow-text">
                         <h5>SOMETHING</h5>
                     </div>
-                    <div class="title font-2">
+                    <div class="title font-2 flow-text">
                         <h3>ABOUT ME</h3>
                     </div>
-                    <div class="section-para justify-center p-5">
+                    <div class="section-para justify-center p-5 flow-text">
                         <p>
                             It is a long established fact that a reader will be distracted by the readable content of a
                             page
@@ -247,7 +249,7 @@
             </div>
         </div>
     </section>
-    <section class="clients-section bg-purple valign-center center flow-text">
+    <section class="clients-section bg-purple valign-center center flow-text" id="clients-section">
         <div class="container-fluid">
             <div class="row pl-5 ml-5 valign-center center">
                 <div class="col-s-12 col-2">
@@ -289,6 +291,11 @@
             </div>
         </div>
     </section>
+
+    <!--Scroll To Top Button-->
+    <div class="scrollTop valign-center center">
+        <a href="#backToUp"><i class="fas fa-angle-up"></i></a>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script async src="./js/traelyfw.js"></script>
 </body>

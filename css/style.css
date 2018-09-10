@@ -1,5 +1,7 @@
 html {
     font-family: 'Roboto', 'sans-serif';
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 section {
@@ -12,7 +14,7 @@ section {
 
 /* width */
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 10px;
 }
 
 /* Track */
@@ -149,7 +151,26 @@ section {
     color: #0e012e;
 }
 
-/* .portfolio-section{ */
-/* height: auto; */
-/* max-height: auto; */
-/* } */
+.scrollTop {
+    display: none;
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #0e012e;
+    color: white;
+    cursor: pointer;
+    width:55px;
+    height: 55px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.scrollTop a{
+    padding:18px;
+    color: #fff;
+}
+.scrollTop:hover{
+    background-color: #3A1392;
+}
