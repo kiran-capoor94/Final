@@ -94,15 +94,15 @@ section {
 }
 
 .kc-header-mobile {
-    padding-top: 7px;
-    width: 76px;
-    border: 2px solid #3A1392;
+    /* padding-top: 7px; */
+    /* width: 41px; */
+    /* border: 2px solid #3A1392; */
     position: absolute;
-    top: 9%;
+    top: 14%;
     right: 5%;
-    padding: 5px;
-    text-align: center;
-    display: none;
+    /* padding: 5px; */
+    /* text-align: center; */
+    /* display: none; */
 }
 
 .up-arrow {
