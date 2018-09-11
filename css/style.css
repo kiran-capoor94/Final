@@ -174,3 +174,6 @@ section {
 .scrollTop:hover{
     background-color: #3A1392;
 }
+.main-text{
+    padding-top: 12%;
+}
