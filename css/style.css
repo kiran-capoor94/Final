@@ -35,6 +35,7 @@ section {
 .hero {
     background-image: url('../images/bg-waves-logo-bar@2x.png');
     background-size: cover;
+    /* background-position: center; */
 }
 
 @media only screen and (max-width:768px) {
@@ -94,7 +95,25 @@ section {
 .waves-purple .section-head-text {
     color: #fff;
 }
-
+.waves-bubbles{
+    background-image: url('../images/bg-design-right.png');
+    background-size: cover;
+    color: #0e012e;
+}
+.waves-bubble-left{
+    background-image: url('../images/bg-design-left.png');
+    background-size: cover;
+}
+.waves-dashdesign{
+    background-image: url('../images/bg-dashdesign.png');
+    background-size: cover;
+    color: #fff;
+}
+.waves-bubbles-inverted{
+    background-image: url('../images/bg-bubble-inverted.png');
+    background-size: cover;
+    background-position: center;
+}
 .kc-header-mobile {
     /* padding-top: 7px; */
     /* width: 41px; */
@@ -175,5 +194,19 @@ section {
     background-color: #3A1392;
 }
 .main-text{
-    padding-top: 12%;
+    /* padding-top: 12%; */
+    width: 100%;
+    height: 100%;
+}
+.login-page{
+    background-image: url('../images/bg-dashdesign.png');
+    color: white;
+}
+.login-body {
+    color: #0e012e;
+    background-color: #fff;
+    width: 100%;
+}
+.login-item {
+    padding: 20px;
 }

@@ -17,7 +17,7 @@ html {
     -webkit-text-size-adjust: 100%;
     /* 2 */
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 /* Sections
@@ -306,6 +306,7 @@ textarea {
     /* 2 */
 }
 
+
 /* Interactive
     ========================================================================== */
 /*
@@ -350,9 +351,39 @@ select,
 textarea {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
+input{
+    padding: 20px;
+    width: 50%;
+    border: 1px solid gray;
+    border-radius: 35px;
+}
+input:focus{
+    outline: none;
+    border: 1px solid #0e012e;
+}
+::placeholder { 
+    color: #0e012e;
+}
+label {
+    display: flex;
+    font-size: 22px;
+    padding-bottom: 5px;
+    margin: auto;
+    width: 50%;
+}
+button.login-btn {
+   padding: 15px 50px 15px 50px; 
+    font-size: 22px;
+    background-color: #0e012e;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 60px;
+    cursor: pointer;
+}
 
 button:hover {
-    background-color: #f1f1f1;
+    background-color: #3A1392;
     transition: 0.3s linear;
 }
 
@@ -739,6 +770,9 @@ p {
 @media only screen and (min-width: 960px) {
     .flow-text {
         font-size: 1.5rem;
+    }
+    .flow-text h1{
+        font-size: 55px;
     }
 }
 
