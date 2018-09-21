@@ -1,5 +1,6 @@
 
 # Final
+v.1.1
 
 Website design using Traely's minimalistic framework.
 Would like to thank:
