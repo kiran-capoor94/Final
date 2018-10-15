@@ -11,7 +11,7 @@ Would like to thank:
 
 3. Navneet Kaur Pannu for the Web Design.
 
-KiranCapoor.com is my portfolio site. Using a csutom made framework. It's not complete and one might find things missing.
+KiranCapoor.com is my portfolio site. Using a custom CSS & JS framework. It's not complete and one might find things missing.
 If you wish to contribute please do so. And proper credits to the contributor shall be provided.
 
 Design images can be seen in the images folder.
