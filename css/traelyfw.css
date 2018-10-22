@@ -36,6 +36,7 @@ body {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    font-family: "Roboto Slab", serif;
 }
 
 /* Grouping content
@@ -351,19 +352,23 @@ select,
 textarea {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
-input{
+
+input {
     padding: 20px;
     width: 50%;
     border: 1px solid gray;
     border-radius: 35px;
 }
-input:focus{
+
+input:focus {
     outline: none;
     border: 1px solid #0e012e;
 }
-::placeholder { 
+
+::placeholder {
     color: #0e012e;
 }
+
 label {
     display: flex;
     font-size: 22px;
@@ -371,8 +376,9 @@ label {
     margin: auto;
     width: 50%;
 }
+
 button.login-btn {
-   padding: 15px 50px 15px 50px; 
+    padding: 15px 50px 15px 50px;
     font-size: 22px;
     background-color: #0e012e;
     outline: none;
@@ -416,6 +422,10 @@ a {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.gap {
+    margin: 90px;
 }
 
 .clear {
@@ -530,11 +540,26 @@ video {
     text-align: left;
 }
 
+.text-white {
+    color: #fff;
+}
+
 .truncate {
     display: block;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+/**Title & Subtitle Classes**/
+.title-text h3 {
+    font-size: 22px;
+    margin: 5px 0 5px 0;
+}
+
+.subtitle-text h5 {
+    font-size: 18px;
+    margin: 5px 0 5px 0;
 }
 
 /*Responsive Typography*/
@@ -645,6 +670,24 @@ p {
 .vertical-text {
     writing-mode: vertical-lr;
     text-orientation: upright;
+}
+
+.cut-out-text {
+    background-color: white;
+    color: black;
+    font-size: 8vw;
+    font-weight: bold;
+    /* margin: 0 auto; */
+    padding: 10px;
+    /* width: 50%; */
+    /* text-align: center; */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    mix-blend-mode: screen;
+    /* display: flex; */
+    margin: auto;
 }
 
 @media only screen and (min-width: 360px) {
@@ -771,7 +814,8 @@ p {
     .flow-text {
         font-size: 1.5rem;
     }
-    .flow-text h1{
+
+    .flow-text h1 {
         font-size: 55px;
     }
 }
@@ -1064,8 +1108,22 @@ p {
     margin-bottom: auto !important;
 }
 
+/* BG Styles */
 .bg-inherit {
     background: inherit;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-grey {
+    background-color: #f1f1f1;
+}
+
+.bg-purple {
+    background-color: #0e012c;
+    color: #fff !important;
 }
 
 /**************************GRID*******************************/
@@ -1203,6 +1261,208 @@ p {
     }
 }
 
+.under-line-40 {
+    border-bottom: 1.5px solid #0e012c;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+/******************************BUTTONS******************************/
+.btn {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn.btn-login {
+    padding: 36px;
+}
+
+.btn.btn-login:hover {
+    background-color: #f1f1f1;
+}
+
+.navbar-login-btn {
+    border-left: 1px solid #000;
+    display: inline-flex;
+}
+
+.btn.btn-login.bg-purple:hover {
+    background-color: #3A1392;
+}
+
+/******************************navbar******************************/
+.navbar {
+    color: #000000;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    max-height: 90px;
+    background-color: #fff;
+}
+
+.navbar.navbar-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar.navbar-material {
+    border-bottom: 1px solid #f1f1f1;
+    box-shadow: 0px 0px 16px -3px;
+}
+
+.navbar-brand {
+    padding: 10px;
+    display: inline-flex
+}
+
+.navbar-brand img {
+    max-width: 70px;
+    padding: 10px;
+
+}
+
+.navbar-brand h1 {
+    display: inline-flex;
+    margin: 0;
+    padding: 1rem;
+}
+
+.navbar nav {
+    width: 100%;
+    display: flex;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.navbar a {
+    color: #0e012e;
+}
+
+.navbar li a:hover {
+    color: #0e012e;
+    background-color: #f1f1f1;
+    transition: backgound-color .3s;
+}
+
+.navbar ul li a {
+    padding: 20px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/******************************SECTIONS ******************************/
+
+/*Banner*/
+.section-banner {
+    height: 40vh;
+    background-image: url("../images/bg-dashdesign.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-banner-2 {
+    height: 40vh;
+}
+
+.section-parallax {
+    height: 92vh;
+    background-image: url("../images/background-2400765_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.section-parallax-2 {
+    height: auto;
+    background: url("../images/bg-waves-up-new.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*Services*/
+.section-services {
+    height: auto;
+    padding: 2px;
+}
+
+.shadow {
+    box-shadow: 0 2px 5px -2px #333;
+}
+
+.card {
+    padding: 10px;
+}
+
+
+
+/*********************************DROPDOWN MENU*****************************/
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/****************************** FOOTER ******************************/
+.footer {
+    display: block;
+}
+
+/****************************** RESPONSIVE CLASSES ******************************/
+
 /*Hide/Show Classes*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -1216,7 +1476,7 @@ p {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) and (max-width:767px) {
     .hide-large-mobile {
         display: none;
     }
@@ -1227,7 +1487,7 @@ p {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width:991px) {
     .hide-tab {
         display: none;
     }
@@ -1238,7 +1498,7 @@ p {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width:1199px) {
     .hide-large-tab {
         display: none;
     }
@@ -1257,29 +1517,4 @@ p {
     .hide-desktop {
         display: none;
     }
-}
-
-/******************************HEADER******************************/
-header {
-    color: #000000;
-    height: auto;
-}
-
-header ul {
-    width: 100%;
-    display: flex;
-}
-
-header a {
-    color: #0e012e;
-}
-
-header li a:hover {
-    color: #0e012e;
-    background-color: #f1f1f1;
-    transition: backgound-color .3s;
-}
-
-header ul li a {
-    padding: 20px;
 }

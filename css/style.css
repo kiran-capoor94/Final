@@ -4,10 +4,6 @@ html {
     background-repeat: no-repeat;
 }
 
-section {
-    height: 100vh;
-}
-
 .purple {
     color: #0e012e;
 }
@@ -32,144 +28,6 @@ section {
     background: #0e012e;
 }
 
-.hero {
-    background-image: url('../images/bg-waves-logo-bar@2x.png');
-    background-size: cover;
-    /* background-position: center; */
-}
-
-@media only screen and (max-width:768px) {
-    .hero {
-        background-image: url('../images/bg-waves-head.png');
-        background-size: cover;
-    }
-}
-
-.kc-header {
-    display: flex;
-    top: 10%;
-    position: relative;
-}
-
-.logo-container {
-    width: 85px;
-}
-
-.hero-right {
-    position: absolute;
-    right: 5%;
-    top: 30%;
-}
-
-.hero-left {
-    position: absolute;
-    left: 5%;
-    top: 20%;
-}
-
-#about-me {
-    background-image: url('../images/bg-purple-codes.png');
-    background-size: cover;
-}
-
-.text-white {
-    color: #fff;
-}
-
-.section-para {
-    line-height: 2rem;
-}
-
-.waves-top {
-    background-image: url('../images/bg-waves-top.png');
-}
-
-.waves-purple {
-    background-image: url('../images/bg-waves-dark.png');
-}
-
-.waves-top .section-head-text {
-    color: #0e012e;
-}
-
-.waves-purple .section-head-text {
-    color: #fff;
-}
-.waves-bubbles{
-    background-image: url('../images/bg-design-right.png');
-    background-size: cover;
-    color: #0e012e;
-}
-.waves-bubble-left{
-    background-image: url('../images/bg-design-left.png');
-    background-size: cover;
-}
-.waves-dashdesign{
-    background-image: url('../images/bg-dashdesign.png');
-    background-size: cover;
-    color: #fff;
-}
-.waves-bubbles-inverted{
-    background-image: url('../images/bg-bubble-inverted.png');
-    background-size: cover;
-    background-position: center;
-}
-.kc-header-mobile {
-    /* padding-top: 7px; */
-    /* width: 41px; */
-    /* border: 2px solid #3A1392; */
-    position: absolute;
-    top: 14%;
-    right: 5%;
-    /* padding: 5px; */
-    /* text-align: center; */
-    /* display: none; */
-}
-
-.up-arrow {
-    position: fixed;
-    bottom: 11%;
-    font-size: 30px;
-    right: 5%;
-    /* border: 2px solid #0e012e; */
-    padding: 2px;
-}
-
-.up-arrow i {
-    color: #0e012e;
-}
-
-.up-arrow i:hover {
-    color: #3A1392;
-}
-
-.down-arrow i {
-    color: #0e012e;
-}
-
-.down-arrow i:hover {
-    color: #3A1392;
-}
-
-.down-arrow {
-    position: fixed;
-    bottom: 7%;
-    right: 5%;
-    font-size: 30px;
-    /* border: 2px solid #0e012e; */
-    padding: 2px;
-}
-
-.bg-purple {
-    background-color: #0e012e;
-    color: #fff;
-}
-
-.bg-gray {
-    background-color: #e3e3e3;
-    color: #0e012e;
-}
-
 .scrollTop {
     display: none;
     position: fixed;
@@ -181,32 +39,17 @@ section {
     background-color: #0e012e;
     color: white;
     cursor: pointer;
-    width:55px;
+    width: 55px;
     height: 55px;
     border-radius: 50%;
     font-size: 30px;
 }
-.scrollTop a{
-    padding:18px;
+
+.scrollTop a {
+    padding: 18px;
     color: #fff;
 }
-.scrollTop:hover{
+
+.scrollTop:hover {
     background-color: #3A1392;
-}
-.main-text{
-    /* padding-top: 12%; */
-    width: 100%;
-    height: 100%;
-}
-.login-page{
-    background-image: url('../images/bg-dashdesign.png');
-    color: white;
-}
-.login-body {
-    color: #0e012e;
-    background-color: #fff;
-    width: 100%;
-}
-.login-item {
-    padding: 20px;
 }
